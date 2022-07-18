@@ -1,0 +1,178 @@
+/***********************************/
+/* SECTION NAV */
+/***********************************/
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-container {
+  width: 90%;
+  height: 4rem;
+  margin: 0.8rem 3.2rem;
+  display: flex;
+  align-items: center;
+}
+.nav-links {
+  margin: 0 0 0 auto;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+.nav-logo {
+  height: 100%;
+}
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #f1f3f5;
+  font-size: 1.2rem;
+}
+.logo-container {
+  height: 70%;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.logo-text {
+  color: #f1f3f5;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.nav-link-special {
+  margin-left: 1.6rem;
+  padding: 0.8rem 1.6rem;
+  background-color: #2f9e44;
+  border-radius: 10px;
+}
+/***********************************/
+/* SECTION HERO */
+/***********************************/
+.header {
+  background-image: linear-gradient(to top left, #222425c4, #2326299c),
+    url(../../content/img/heidi-kaden-NncAbldgViA-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 45rem;
+  position: relative;
+}
+.header-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  left: 50%;
+  text-align: center;
+
+  color: #f1f3f5;
+}
+.heading-primary {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.heading-desc {
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 1.5;
+  margin-top: 1.2rem;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.6rem;
+  margin-top: 2.4rem;
+  font-size: 1.2rem;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #343a40;
+  text-decoration: none;
+  background-color: #f1f3f5;
+  padding: 0.8rem 1.6rem;
+  border-radius: 10px;
+  color: #f1f3f5;
+  transition: all 0.5s;
+}
+.btn-cta {
+  background-color: #2f9e44;
+  color: #f8f9fa;
+}
+.btn-about {
+  background-color: transparent;
+  outline: 2px solid #f1f3f5;
+}
+.btn-cta:hover {
+  border-radius: 5px;
+}
+.btn-about:hover {
+  background-color: #343a404d;
+}
+/***********************************/
+/* SECTION FEATURES */
+/***********************************/
+.heading-secondary {
+  font-size: 2.4rem;
+}
+.heading-tertiary {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #12b886;
+}
+.section-features {
+  padding: 3.2rem 0;
+}
+.headings {
+  margin: 1.6rem;
+}
+.section-features .content-box {
+  border-radius: 0 10px 10px 0;
+  padding: 0.4rem;
+  color: #f1f3f5;
+  overflow: hidden;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.feature-find {
+  position: relative;
+  background-color: #12b886;
+}
+.feature-book {
+  background-color: #0e936b;
+}
+.img-container {
+  border-radius: 5px;
+  width: 100%;
+  overflow: hidden;
+}
+.feature-img {
+  width: 100%;
+  height: 100%;
+}
+.feature-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.6rem;
+}
+.feature-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+.feature-copy {
+  padding: 1.6rem;
+}
+.feature-text {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: #d0f1e7;
+}
+.curve {
+  position: absolute;
+  height: 2.55rem;
+  width: 100%;
+  bottom: 0;
+}
