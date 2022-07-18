@@ -129,21 +129,17 @@
 .section-features .content-box {
   border-radius: 0 10px 10px 0;
   padding: 0.4rem;
-  color: #f1f3f5;
+  color: #ebfbee;
   overflow: hidden;
 }
 .features {
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 3.2rem;
+  background-color: #0ca678;
+  padding: 1.6rem 0;
 }
-.feature-find {
-  position: relative;
-  background-color: #12b886;
-}
-.feature-book {
-  background-color: #0e936b;
-}
+
 .img-container {
   border-radius: 5px;
   width: 100%;
@@ -168,11 +164,5 @@
 .feature-text {
   font-size: 1.6rem;
   line-height: 1.2;
-  color: #d0f1e7;
-}
-.curve {
-  position: absolute;
-  height: 2.55rem;
-  width: 100%;
-  bottom: 0;
+  color: #d3f9d8;
 }
